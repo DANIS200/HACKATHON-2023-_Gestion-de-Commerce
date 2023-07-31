@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fea61db915.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <title>N°5</title>
+</head>
+<body>
+    <div class="background"></div>
+    <nav class="nav-container">
+        <ul class="list-container">
+            <a class="list-item" href="#">MADAECO</a>
+            <a class="list-item" href="#">Dashboard</a>
+            <div class="img-container"><img src="ressources/téléchargement.png" alt="logo chanel"></div>
+            <a href="#" class="list-item">produits</a>
+            <a href="#" class="list-item">Idées Cadeaux</a>
+        </ul>
+        <div class="noel">
+            <img src="ressources/bonnet.png" alt="bonnet de Noël">
+        </div>
+    </nav>
+    <div class="account">
+        <a class="account-item" href="#">
+            <i class="fa-regular fa-user"></i>
+        </a>
+        <a class="account-item" href="#">
+            <span id="basket"></span>
+            <i class="fa-solid fa-bag-shopping">
+            </i>
+        </a>
+    </div>
+    <div class="product">
+        <div class="img-product-container">
+            <span class="slide slide-left">&#60;</span>
+            <div class="img-product" id="first-img">
+                <img src="ressources/kisspng-chanel-no-5-perfume-coco-icon-perfume-5a7b16f21a9fb5.3302660215180162421091.png" alt="flacon parfum chanel">
+            </div>
+            <span class="slide slide-right">&#62;</span>
+            <div class="img-product" id="second-img">
+                <img src="ressources/img-2.jpg" alt="actrice avec flacon chanel">
+            </div>
+            <div class="img-product" id="trird-img" >
+                <img src="ressources/img-3.jpeg" alt="flacon parfum et boite">
+            </div>
+        </div>
+            
+        <div class="text-product">
+            
+                <h1>Chanel N°5</h1>
+            
+            <p>N°5, l'essence même de la féminité. Un bouquet floral aldéhydé sublimé par un flacon iconique aux lignes minimalistes. Un parfum mythique et intemporel.
+                <br><br>
+            L'eau de parfum puise son inspiration dans le parfum avec lequel elle partage sa signature fleurie-aldéhydée.
+            Ce bouquet floral composé autour de la rose de mai et du jasmin est égayé en tête par les notes héspéridées. Les aldéhydes lui confèrent une présence unique, et la touche moelleuse de vanille, un sillage infiniment sensuel.
+            </p>
+            <div class="ligne-separation"></div>
+            <div class="formulaire">
+                <label for="contenance">Quatre tailles disponible :</label>
+                <select name="contenance" id="contenance">
+                    <option value="200">200 ml</option>
+                    <option value="100" selected>100 ml</option>
+                    <option value="50">50 ml</option>
+                    <option value="35">35 ml</option>
+                </select>
+                <div class="prix">
+                    <span class="affichage-prix"></span>
+                </div>
+                <button>Ajouter au panier</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h3>CHANEL</h3>
+        <div class="reseaux">
+            <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

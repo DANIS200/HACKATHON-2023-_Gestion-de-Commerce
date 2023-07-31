@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MADAECO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footeur.css">
+    <!-- Box Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+     rel='stylesheet'>
+
+</head>
+<body>
+    <!-- Navbar-->
+    <header>
+        <!-- nav-->
+       <div class="nav container">
+        <!---logo-->
+        <a href="" class="logo">MADAECO</a>
+        <a href="./dashboard/index.html" class="logo">Dashboard</a>
+        <a href="#produit" class="logo">Produits</a>
+         <!-- cart Icon-->
+         <i class='bx bxs-shopping-bag' id="cart-icon" data-quantity="0"></i>
+          <!-- cart-->
+          <a href="" class="connexion"><img class="user" src="img/user.svg" alt=""></a>
+          <div class="cart">
+            <h2 class="cart-title"> your cart</h2>
+            <!-- content-->
+            <div class="cart-content">
+
+            </div>
+            <!-- Total-->
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <!-- buy Button-->
+            <button type="button" class="btn-buy">Pay Now</button>
+             <!-- close cart-->
+            <i class='bx bx-x' id="close-cart"></i>
+          </div>
+       </div>
+    </header>
+
+
+     <!-- section slide touts les produit vandu-->
+
+     <section id="">
+      <div class="slider-container slider-1">
+          <div class="slider">
+            <figure class="shmfone1">
+              <img src="./products/smartfone/images/samsung1.jpg" alt="">
+              <figcaption>Bénéficiez de <strong> 30%</strong> de réduction sur tous <br>vos achats de plus de <span>25$ </span></figcaption>
+            </figure>
+            <figure class="shmfone2">
+              <img src="./products/maillot/img/maillotvert.png" alt="">
+              <figcaption>Bénéficiez de <strong> 33%</strong> de réduction sur tous <br>vos achats de plus de <span>33,3$</span> </figcaption>
+            </figure>
+            <figure class="shmfone1">
+              <img src="./products/maillot/img/product7.jpeg" alt="">
+              <figcaption>Bénéficiez de <strong> 40%</strong> de réduction sur tous<br> vos achats de plus de <span>22$ </span></figcaption>
+            </figure>
+            <figure class="shmfone2">
+              <img src="./products/chanel/ressources/kisspng-chanel-no-5-perfume-coco-icon-perfume-5a7b16f21a9fb5.3302660215180162421091.png" alt="">
+              <figcaption>Bénéficiez de <strong> 35%</strong>de réduction sur tous <br>vos achats de plus de <span>40$ </span></figcaption>
+            </figure>
+            <figure class="shmfone1">
+              <img src="./products/img/product6.jpeg" alt="">
+              <figcaption>Bénéficiez de <strong> 31.99%</strong> de réduction sur tous <br>vos achats de plus de <span>19.99$</span></figcaption>
+            </figure>
+           
+          </div>
+  </section>
+          
+
+
+
+   <!-- section prouduit detail-->
+
+   <main class="container1">
+     <h1>Bienvenue au Bautique du MADAECO</h1>
+      <section>
+        <ul class="list-container">
+          <li class="card">
+            <a href="./products/smartfone/phone.html">
+              <div class="circle-container">
+                <div class="circle"></div>
+                <img src="./products/smartfone/images/samsung1.jpg" alt="">
+              </div>
+              <h2>Smartphones</h2>
+            </a>
+            <ul>
+              <li><a href="#">prix:232$</a></li>
+              <li><a href="#">ajouter au panier</a></li>
+              <li><a href="./products/smartfone/phone.html" class="voir-plus">voir plus</a></li>
+            </ul>
+          </li>
+          <li class="card">
+            <a href="./products/maillot/maillot.html">
+              <div class="circle-container">
+                <div class="circle"></div>
+                <img src="./products/maillot/img/maillotvert.png" alt="">
+              </div>
+              <h2>Maillot Home</h2>
+            </a>
+            <ul>
+              <li><a href="#">prix:200$</a></li>
+              <li><a href="#">ajouter au panier</a></li>
+              <li><a href="./products/maillot/maillot.html" class="voir-plus">voir plus</a></li>
+            </ul>
+          </li>
+          <li class="card">
+            <a href="./products/chanel/index.html">
+              <div class="circle-container">
+                <div class="circle"></div>
+                <img src="./products/chanel/ressources/kisspng-chanel-no-5-perfume-coco-icon-perfume-5a7b16f21a9fb5.3302660215180162421091.png" alt="">
+              </div>
+              <h2>Chanel</h2>
+            </a>
+            <ul>
+              <li><a href="#">prix:140$</a></li>
+              <li><a href="#"> ajouter au panier</a></li>
+              <li><a href="./products/chanel/index.html" class="voir-plus">Voir plus</a></li>
+            </ul>
+          </li>
+          <li class="card">
+            <a href="./products/boule-noel/index.html">
+              <div class="circle-container">
+                <div class="circle"></div>
+                <img src="./products/boule-noel/images/bauble-g5e0554b90_1920.png" alt="">
+              </div>
+              <h2>Décorations</h2>
+            </a>
+            <ul>
+              <li><a href="#">prix:2.50$ L'unité</a></li>
+              <li><a href="#">ajouter au panier</a></li>
+              <li><a href="./products/boule-noel/index.html" class="voir-plus">voir plus</a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+     
+
+       <!-- products-->
+       <section class="shop container" id="produit">
+        <h2 class="section-title"> Shop products</h2>
+         <!-- shop content-->
+         <div class="shop-content">
+             <!-- Box 1-->
+             <div class="product-box">
+                <!-- " besoin d'images qui sont en ligne sur le serveur local, elles ne s'afficheront pas sur la page de paiement de la bande que nous devons télécharger en ligne" -->
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnk_lecwOAYZrON-_nAH0S5BKZeYrdV9dswPfICrEEMeeJKHz3s82AK8BMRmlS8YK32_1wo9cAmeQgviOginkfhJHpFl5nwcxd9lSvRTsoz4sRIqjHZjecbKubDM9kVc6oM_PHnj2aAXHbG2ggfPPf1hkHDd6zOSbtkJkAMPbqulz57qk8vqhc0ORSggsw/s840/product1.jpeg" 
+                alt="" 
+                class="product-img">
+                <h2 class="product-title"> ADICOLOR SEASONAL</h2>
+                <span class="price">$50</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+             </div>
+
+             <!-- Box 2-->
+             <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWrOZSqXZr8oLF5vh5CsUVgGgxedfaZK0tBXNqWx_OMw1CXfV0gr_yfw6KK0pyd7UMR3XePfAnsz84HGKXWs57_oJk_dpCN7X2rfIoLGxpEpQE3gbtGmB9kFBH5wta1of9RoI1vHxEksmgKw-LC2FQ7jZUyPs7LO_x25v6oM5UosNwkwa2vo785E1u10S0/s840/product2.jpeg"
+                alt="" 
+                class="product-img">
+                <h2 class="product-title"> SATURDAY BACKPACK</h2>
+                <span class="price">$70</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+             </div>
+
+             <!-- Box 3-->
+             <div class="product-box">
+                 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgP5khsizpwxfFf41Yni0Sit0Nb43WJ37f1NlbBJLT-T5QkBbwGdeekq1dUysS2BfiIN4M-YAaekdMeUHPQDEr1Kfc-Y3JMc9dVdO-qKJK_YVSVDxGRzuwFZUNb8ERd_pLxYHnmg8QWZvWO6bvAtDBfboZQgS-85cBJh6mduVb41_f6THuXEIPFPQVtuEAW/s840/product3.jpeg"
+                alt="" 
+                class="product-img">
+                <h2 class="product-title"> ULTIMATE HAT</h2>
+                <span class="price">$24.98</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+             </div>
+
+             <!-- Box 4-->
+             <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimFPr8yOYWl6hILJ2sP7Fvsr90chfVlZsTWPNdTkMrz3B8uADMx8iGUDI6_niQrQCVHFfo4WbfWJDxQbRBIq12czw5K3_KSUW18xiPjpPjIcpDBA5pvaNmA_afJgDHzLrX1xubeR2Kx4_EWDmApKrMxo1MocY4O91M2ZV6C3V1Ku_zP1HvPWVsIXI7Zb2w/s840/product4.jpeg"
+                 alt="" 
+                class="product-img">
+                <h2 class="product-title"> MESSI GOAT TEE</h2>
+                <span class="price">$100</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+             </div>
+              <!-- Box 5-->
+              <div class="product-box">
+                 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiedqX2A78fI86mhJyQjjSWHY-Oif99JdY0GJmS3s-I-cBW2ul7leyAJtmPzfoyyGw06P-OAoBoi8Ltso76vdtRiNnLETnVB4lQRpygDymBlx81PPDD2P3ZLHnIfVZN2WI104aFV-hc5j-Lz1N8dT8JJmJQ55gMbawUxPJwJEmqeTSisb38QpOvNN1NDyMT/s840/product5.jpeg"
+                alt="" 
+                class="product-img">
+                <h2 class="product-title">ADICOLOR HOODIE </h2>
+                <span class="price">$74</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+             </div>
+             <!-- Box 6-->
+             <div class="product-box">
+                 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixcaGQ5fvHSkVuwiBKQbzs0gNSM_4gUAwzcNDUWb1jcFtYQ1D1JnlZniENMuak-EE3S4pai0o7krFMG-_jU029RL97cmYkCfw0VugV0qJ4ty9QmuuMXFT-4MHxGzsnIkOgpCmeQ9utZRjXv7cvaC-KlEd5ZvgtUSCxUNRV9MZw28PoBifsjf_pil8OTvMX/s840/product6.jpeg"
+                alt="" 
+                class="product-img">
+                <h2 class="product-title"> ADIDAS EARBUDS</h2>
+                <span class="price">$200</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+             </div>
+             <!-- Box 7-->
+             <div class="product-box">
+                 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvHrbuzpVeWDFTgOwQz_K59U2EyspsmgFW2husMBx_d69iBplGx1zX8g2FTRpiGOfWhyfW3evaWl0b2t-SiKnCuAKeojKgknH9qxzd_Px7yiyWZ08W5hgTzybIwtOEnbQPdn39JyKr-PSBN5Ifn8C8aYI4Ok_XEzjEm22vGBaoFNPy7iNYrVGu5qVyFXNY/s840/product7.jpeg"
+                alt="" 
+                class="product-img">
+                <h2 class="product-title"> METAL BOTTLE 1L</h2>
+                <span class="price">$80.04</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+             </div>
+             <!-- Box 8-->
+             <div class="product-box">
+               <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1PEeTx0nJVhZw6ktPLmVEFkEl3rZhsJxnZQ5AnTr3ct-tP4mvwMmXs390xegTl-StOI33FSOKniYwqcubLktD1fdO5y8-otCscCrAcPOAHapsUZbTL8wHs5C0jvi9QX1mh8GrAZIcIQZDRSA_aiF_4nDdJi9eywRcFU7efBhu46Hg9Wu2w_G3BFb5OYOv/s840/product8.jpeg"
+                alt=""
+                class="product-img">
+                <h2 class="product-title"> ULTRABOOST SHOES</h2>
+                <span class="price">$270</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+             </div>
+              <!-- Box 9-->
+              <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEDBy72QhZJUB3vlUX2uDpl3PV40dlKC16E_NXP9qu64acxYeMQKMuQGIpzwTqCgmbPyp1YX5D9MBEwmFQFuTGEGBE-yiLrT4sCLIiMJTPTAcrEKmyCCK8YSNchoiMrPC4uNdHejvb1AMF5yyFemD3JP8BGosomaEeq-xCBAD7GzmilYiMKOjtRAMyVvIY/s800/product9.jpg"
+                 alt=""
+                 class="product-img">
+                 <h2 class="product-title">maillot_de_PSG</h2>
+                 <span class="price">$270</span>
+                 <i class='bx bx-shopping-bag add-cart'></i>
+              </div>
+              <!-- Box 10-->
+              <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9TJfa44Vh7sY6NcKCIIv1wNjTF4ibOEawwdiJxX_7atUR00T5dCLJeekKEa9nXLSqSfFFJ_FRiY4y726E8YccCUjae7KHEEBAQEjOt2k0DTUSb2jt6wqbqHIgQsKeVzfAbcaD8To5R277qyZ49xgiaONT-0yreD_y2Pkw9xo9yiMcdtxPw0VhQ_yMRAnT/s800/product10.jpg" 
+                alt=""
+                 class="product-img">
+                 <h2 class="product-title">maillot du real madrid</h2>
+                 <span class="price">$270</span>
+                 <i class='bx bx-shopping-bag add-cart'></i>
+              </div>
+               <!-- Box 11-->
+               <div class="product-box">
+               <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbT-B7jIAYfVenLiuXElKwq-X6d7J2wvOVbKW7CSPbIPyuf5wCf-59IMoS14ub6agz8T6SGSc1y44AMtolZd0YAjW7kgjcVwEFtGjuyZfyexixw9eaTP-9IAgW4I0OTSTkUxsiiPk1mv80MLILgOoMf_qDDdcXOizgnU4qdjx1SYH9CZES34OWB-hiWgFf/s800/product11.jpg" 
+               alt=""
+                 class="product-img">
+                 <h2 class="product-title">maillot de liverpool</h2>
+                 <span class="price">$270</span>
+                 <i class='bx bx-shopping-bag add-cart'></i>
+              </div>
+              <!-- Box 12-->
+              <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEksjLCysnIBYUMjetyHPcIQyRW7ZMNJl3pwUCK95fnqmyoJhKLAjdK1SskvfaX7grnfIZ2Gcx7lKKw8luZGRY9COIZRfBfI-HcmqU2QPgiSkM83tWntZi33L-Ots8_KILXkbnkYvZdZ4PMJ3gRiS_kRDY3YWu3VNCAtpDlxZvT83TSzIlyfLtw_8pKIln/s1000/product12.png"
+                 alt=""
+                 class="product-img">
+                 <h2 class="product-title">maillot de lions Indomptables</h2>
+                 <span class="price">$270</span>
+                 <i class='bx bx-shopping-bag add-cart'></i>
+              </div>
+              <!-- Box 13-->
+              <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgW_Lz6A8UYkUovjKlAQC-CbgiZIafOXHhwOHkZ7HaNkRyCFAf6TKkykPsasrUln4lYnsvHg2f4LP2nM2QdgwMLVOKuL5EcHmmFFJyeHnWosON6HNsiXDh_RSIVwjU4f64IQthAftkrmwM4E3B6EpJ7h-SAPNwXtf8_LlBZdiIFs9h43pq5e27cP_CC9IEv/s64/product13.png"
+                 alt=""
+                 class="product-img">
+                 <h2 class="product-title">air force white</h2>
+                 <span class="price">$270</span>
+                 <i class='bx bx-shopping-bag add-cart'></i>
+              </div>
+              <!-- Box 14-->
+              <div class="product-box">
+               <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheZ3QBxf29TD0QC9n7AKC72yycTFwuJpBpwznzH4xoUD17-P1CodU8ms9aL9AeUnDM9GMlZ1CDKdM8qYkcLe6_iUSETRYVb-UEM0ew7cUcBswTNUZJ3BpJEfmg0u2WVqbPo9uX35ZSUk66ZNlXVRAwc92HDzp_MKlolZ8Gm9BbvVZjqTrThYvnj1t4pkI1/s64/product14.png" 
+               alt=""
+                 class="product-img">
+                 <h2 class="product-title">puma-rs-x</h2>
+                 <span class="price">$270</span>
+                 <i class='bx bx-shopping-bag add-cart'></i>
+              </div>
+              <!-- Box 15-->
+              <div class="product-box">
+               <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgf5itrvJJY0qrvAlYHgTmNfADgKi6LWMr51rOnISMniWhBSP_mV8IikfUK36RAKmS-d7h7n-2cd87ruSAP9bEIxr2CBHYylc5uIQuE46B5rBc0qWxIqcFRqhagVXUb8QaDUzqXTIwThBOO0qGLC77MHCTzPKubuO7kFeb1F0Qou7U4nvlZpr_L2fkpWlLe/s630/product15.jpg" 
+               alt=""
+                 class="product-img">
+                 <h2 class="product-title">Smartphones</h2>
+                 <span class="price">$270</span>
+                 <i class='bx bx-shopping-bag add-cart'></i>
+              </div>
+              <!-- Box 16-->
+              <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvSOCwZTVM0PIk7yOvJlWOZn6ljk7uYr3PDNf2K7evKswe4z6wS6H0xKhcdYWq4LXBI0R6Tvsw60K6gx6OTnYRHsq5tcJ9Ezhhbc1YJw9Zos0khgpYXeNfOFVddywJW7-nZrVhyw-UZ_C4usO_ImV5lXWWiW5md-r5GwoyssCKVPZAlL_LEDEhcF-lhb_N/s512/product16.png"
+                 alt=""
+                 class="product-img">
+                 <h2 class="product-title">chanel</h2>
+                 <span class="price">$270</span>
+                 <i class='bx bx-shopping-bag add-cart'></i>
+              </div>
+         </div>
+
+      </section>
+
+
+         <footer>
+         <div class="back-footer">
+           <div class="footer-container">
+             <form class="footer-form" action="2.EndFiles/index.html">
+               <p class="form-title">Restez connecté à neswlater</p>
+               <input type="email" placeholder="email">
+               <button>Connectez-vous</button>
+             </form>
+     
+             <div class="about-footer">
+               <p class="footer-title">About</p>
+               <p class="footer-txt">
+                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum alias fugit iure quod, perferendis dicta?
+               </p>
+             </div>
+     
+     
+             <div class="footer-list">
+               <p class="footer-title">Categories</p>
+               <ul>
+                 <li>Accessories</li>
+                 <li>Bags</li>
+                 <li>New Arrivals</li>
+                 <li>Popular Products</li>
+               </ul>
+             </div>
+     
+             <div class="footer-list">
+               <p class="footer-title">Quick Links</p>
+               <ul>
+                 <li>About us</li>
+                 <li>Services</li>
+                 <li>Contact Us</li>
+                 <li>FAQs</li>
+                 <li>Privacy Policy</li>
+               </ul>
+             </div>
+     
+             <div class="medias-footer">
+               <a href="#">
+                 <img src="img/facebook.svg" alt="fb icon">
+               </a>
+               <a href="#">
+                 <img src="img/twitter.svg" alt="twitter">
+               </a>
+               <a href="#">
+                 <img src="img/linkedin.svg" alt="linkedin icon">
+               </a>
+             </div>
+             
+     
+           </div>
+         </div>
+         </footer>
+
+
+    <!-- link to js-->
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>

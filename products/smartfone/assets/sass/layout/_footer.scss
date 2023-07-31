@@ -1,0 +1,29 @@
+
+
+footer{
+    @include flex_center(column);
+    gap:16px;
+    font-size: fontSize(normal);
+    text-align: center;
+    background-color: $secondary_color;
+    padding:40px;
+    font-weight:300;
+
+    *{
+        color:#f1f1f1;
+    }
+
+    a{
+        transition: color $transition_duration;
+    }
+
+    a:hover{
+        color:$accent_color;
+    }
+
+    p.creative-mind{
+        font-family: CreativeMind;
+        font-size: fontSize(level_3);
+        opacity:.5;
+    }
+}
